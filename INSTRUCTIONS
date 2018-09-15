@@ -1,0 +1,44 @@
+1) url and port no-> http://localhost:8080/
+2) npm install --save redux-thunk
+3) firebase->authenicatio->set up sign-in method
+email password- enable -> save
+firebase
+Database ->Rules
+{
+"rules" : {
+  "read" : "auth != null",
+  "write": "auth != null"
+  ".indexOn": ["userId"]
+}
+}
+--previously above line all attributes are true like--
+4) Testng tools -  Reactjs-> a)Test Runner, b) Testing Utilities
+5) npm install --save enzyme react-test-renderer enzyme -adapter-react-16
+6) npm test
+7) Deploying in firebase
+a) npm run build      (similar to npm start, Now build our project)
+b) hosting through firebase
+firebase-> hosted ->get started->
+c) npm install -g firebase-tools
+d) firebase login
+e) firebase init
+public directory? build  (exist in project)
+Yes -> No (overwrite)
+
+folder->
+firebaserc
+firebase.json
+
+d) firebae deploy
+
+Now , get the url 
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/burger-builder-2a343/overview
+Hosting URL: https://burger-builder-2a343.firebaseapp.com
+
+click finish
+***************************************************************************************************************************************
+All the hosting related command in firebase Hosting section or firebase documentation
+
+
